@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light';
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right > ul {
+    display: flex;
+    gap: 2em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.nav-right > ul > li {
+    list-style: none;
+}
+
+.nav-right > ul > li:hover {
+    transform: scale(1.5);
+    transition: ease-in-out 0.7s;
+}
+
+.nav-right > ul > li > a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbaricon {
+    flex: 1;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.nav-left {
+    display: flex;
+}

@@ -7,19 +7,62 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo-name">
+                <a href="#"><img src="#" alt="logo">Name</a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#"><img src="./home.gif" alt="Home" class="navbaricon"></a></li>
+                <li><a href="#"><img src="./chat.gif" alt="Chat" class="navbaricon"></a></li>
+                <li><a href="#"><img src="./emergency.gif" alt="Emergency" class="navbaricon"></a></li>
+                <li><a href="#"><img src="./contact.gif" alt="Contact" class="navbaricon"></a></li>
+            </ul>
+        </div>
 
     </nav>
-    <header>
-
+    <header id="home">
+        <h1>Hello there!</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in saepe aut quas aspernatur fugiat temporibus dolores itaque molestiae nostrum? Ab molestiae distinctio necessitatibus unde.</p>
     </header>
     <main>
-        <section>
-
+        <section id="section1">
+            <div>
+                <ul class="flex-container">
+                    <li>Flex</li>
+                    <li>Box</li>
+                    <li>Is</li>
+                    <li>Fun</li>
+                </ul>
+            </div>
+            <div class="section-image">
+                <h2>This is a heading for the image</h2>
+                <a href="#"><img src="#" alt="image"></a>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="grid-container">
+                <div class="grid-item"><a href="#">What</a></div>
+                <div class="grid-item"><a href="#">Is</a></div>
+                <div class="grid-item"><a href="#">This</a></div>
+                <div class="grid-item"><a href="#">Sorcery</a></div>
+                <div class="grid-item"><a href="#">?</a></div>
+                <div class="grid-item"><a href="#">?</a></div>
+            </div>
         </section>
     </main> 
-    <footer>
-        
+    <footer id="contact">
+        <h2>Contact Us Bitte!</h2>
+        <form>
+            <input type="text" placeholder="Pray, what be thy name, fair sir/madam?">
+            <textarea cols="30" rows="10" placeholder="Wouldst thou be so kind as to jot sumwhat down for me?"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div>Proudly Created by Aadil Ahmad Chattha</div>
+        <a href="#"><img src="#" alt="No Show"></a>
     </footer>   
 </body>
 </html>
